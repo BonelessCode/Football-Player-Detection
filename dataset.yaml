@@ -1,0 +1,7 @@
+# Single CSV-based Dataset Configuration
+
+train: /content/drive/MyDrive/ml_data/images/train/  # path to your CSV file
+val: /content/drive/MyDrive/ml_data/images/val/    # path to your CSV file for validation (same file as training)
+
+nc: 2  # number of classes
+names: ['Ball','Player']  # class names
